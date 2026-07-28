@@ -12,10 +12,6 @@ jobs:
     permissions:
       contents: read
 
-    defaults:
-      run:
-        working-directory: be-nest
-
     steps:
       - uses: actions/checkout@v4
 
